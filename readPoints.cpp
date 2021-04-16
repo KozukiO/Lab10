@@ -7,7 +7,5 @@ const int MaxPntsSize, int& numPoints){
         for( int i=0; i<numPoints; i++){
             inPutPointFile >> pointsArray[i].Pid >> pointsArray[i].x >> pointsArray[i].y;
             }
-            for (int i=0;i<numPoints;i++){
-                cout << pointsArray[i].Pid << pointsArray[i].x << pointsArray[i].y << endl;
-        }};
+};
 
